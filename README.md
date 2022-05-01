@@ -1,10 +1,10 @@
 [产品简介](https://github.com/squids-io/dts-doc/wiki/1.%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B)
 
-[快速入门](https://github.com/squids-io/dts-doc/wiki/2.%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8)
+[命令行使用说明](https://github.com/squids-io/dts-doc/wiki/2.%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%E8%AF%B4%E6%98%8E)
 
-- [MySQL](https://github.com/squids-io/dts-doc/wiki/2.%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8#mysql)
+- [MySQL命令行使用说明](https://github.com/squids-io/dts-doc/wiki/2.%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%E8%AF%B4%E6%98%8E#mysql%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%E8%AF%B4%E6%98%8E)
 
-- [MongoDB](https://github.com/squids-io/dts-doc/wiki/2.%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8#mongodb)
+- [MongoDB命令行使用说明](https://github.com/squids-io/dts-doc/wiki/2.%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%E8%AF%B4%E6%98%8E#mongodb%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%E8%AF%B4%E6%98%8E)
 
 [参数说明](https://github.com/squids-io/dts-doc/wiki/3.%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E)
 

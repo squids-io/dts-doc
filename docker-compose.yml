@@ -1,0 +1,27 @@
+version: '3.0'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: dts-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: dbmotion
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+
+  dbmotion:
+    image: squids/squids-dbmotion-tool:1.0.0
+    container_name: dbmotion
+    depends_on:
+      - mysql
+
+  console:
+    image: squids/squids-dbmotion:1.0.0
+    container_name: squids-dbmotion
+    ports:
+    - "30000:3000"
+    depends_on:
+      - mysql
+      - dbmotion
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp/dbmotion:/tmp/dbmotion

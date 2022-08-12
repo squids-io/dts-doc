@@ -1,5 +1,5 @@
 
-https://github.com/squids-io/dts-doc/blob/master/dbmotion%E5%AE%89%E8%A3%85%E8%A7%86%E9%A2%91%E4%BB%8B%E7%BB%8D.mp4
+[安装视频下载](https://github.com/squids-io/dts-doc/blob/master/dbmotion%E5%AE%89%E8%A3%85%E8%A7%86%E9%A2%91%E4%BB%8B%E7%BB%8D.mp4)
 
 [1.产品简介](https://github.com/squids-io/dts-doc/wiki/1.%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B)
 
@@ -17,7 +17,4 @@ https://github.com/squids-io/dts-doc/blob/master/dbmotion%E5%AE%89%E8%A3%85%E8%A
 
 [6.故障排除](https://github.com/squids-io/dts-doc/wiki/6.%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4)
 
-
-
-https://user-images.githubusercontent.com/96899373/184357597-70ca06af-cf18-4452-a2ef-0665aa8ea173.mp4
 

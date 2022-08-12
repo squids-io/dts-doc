@@ -1,24 +1,3 @@
-DBMotion MySQL安装：
-```bash
-docker network create dts-network && docker pull mysql:latest && docker pull squids/squids-dbmotion-tool:1.0.0 && docker pull squids/squids-dbmotion:1.0.0 && docker run --name dts-mysql --network dts-network -e MYSQL_ROOT_PASSWORD=dbmotion -d mysql && docker run --network dts-network -d -p 30000:3000 --name squids-dbmotion -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/dbmotion:/tmp/dbmotion squids/squids-dbmotion:1.0.0
-```
-
-DBMotion MongoDB命令行安装使用
-```
-# run mysql in docker container:
-docker run -d --name mysql4dbmotion -e MYSQL_ROOT_PASSWORD=dbmotion mysql 
-
-# run dbmotion in docker container:
-docker run -it --name dbmotion-mongo --link mysql4dbmotion --pull always woqutech/dbmotion-mongo
-
-# 全量
-dbmotion --dbtype=mongo  --source='root/dbmotion@10.10.108.75:27017/?connect=direct' --target='root/dbmotion@10.10.108.75:27017/?connect=direct' --result-storage=mysql --connection-string='root/dbmotion@mysql4dbmotion:dbmotion' --schemas=orderdb,saledb --move-model=all --exists-handle=drop --do-truncate=y --work-threads=4 --commit-batchsize=512
-
-# 增量
-dbmotion --dbtype=mongo --source='root/dbmotion@10.10.108.75:27017/?connect=direct' --target='root/dbmotion@10.10.108.75:27017/?connect=direct' --result-storage=mysql --connection-string='root/dbmotion@mysql4dbmotion:dbmotion' --schemas=orderdb,saledb  --move-model=onlychanged --work-threads=4
-
-# 日志放在执行命令的当前目录dbmotion.log
-```
 
 
 [1.产品简介](https://github.com/squids-io/dts-doc/wiki/1.%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B)

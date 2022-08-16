@@ -1,5 +1,6 @@
 
 点击进入DBMotion安装视频：
+
 [![DBMotion安装视频介绍](https://img.youtube.com/vi/8gTcgK_oNG4/0.jpg)](https://www.youtube.com/watch?v=8gTcgK_oNG4)
 
 [1.产品简介](https://github.com/squids-io/dts-doc/wiki/1.%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B)

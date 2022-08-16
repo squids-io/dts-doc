@@ -1,5 +1,5 @@
 
-[安装视频下载](https://github.com/squids-io/dts-doc/blob/master/dbmotion%E5%AE%89%E8%A3%85%E8%A7%86%E9%A2%91%E4%BB%8B%E7%BB%8D.mp4)
+[![DBMotion安装视频介绍](https://img.youtube.com/vi/8gTcgK_oNG4/0.jpg)](https://www.youtube.com/watch?v=8gTcgK_oNG4)
 
 [1.产品简介](https://github.com/squids-io/dts-doc/wiki/1.%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B)
 
